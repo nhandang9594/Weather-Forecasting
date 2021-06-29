@@ -92,8 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
                             JSONObject jsonObjectSys = jsonObject.getJSONObject("sys");
                             String country = jsonObjectSys.getString("country");
-                            txtCountry.setText("City: " + country);
-
+                            txtCountry.setText("Country: " + country);
 
                         } catch (JSONException e) {
                             e.printStackTrace();

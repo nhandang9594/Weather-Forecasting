@@ -14,7 +14,7 @@ https://www.oracle.com/java/technologies/javase-downloads.html
 2. Setting up enviorment/system variables.
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-[I'm an inline-style link](https://www.google.com)
+<https://www.google.com>
 
 ```
 

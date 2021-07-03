@@ -29,13 +29,16 @@ https://www.youtube.com/watch?v=Y6gmmQZsuLE
 3. Ensure Git is extension is downloaded onto Android Studio
 
 ```
-## Postman Setup
+## XAMPP
 ```
-You have two options here, you can either download it from the link below or use a browser extension
+XAMPP is needed for APACHE distrubition and PHP.
 
-Client download
-https://www.postman.com/product/rest-client/
+1.  XAMPP Download
+https://www.apachefriends.org/index.html
 
-Chrome Extension
-https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
-```
+2.
+Ensure to start both APAHCE/PHPMyADmin
+
+PHPMyAdmin is used for database management, as well as verification of users logging in. 
+
+

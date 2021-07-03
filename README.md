@@ -4,6 +4,19 @@ Basic Description:
 
 An app that takes user entered data and predicts the weather for the next week or so
 
+## Java
+```
+Please make sure you have java installed on your machine, as well as the proper enviorment/system variables set up.
+
+1. JDK Download Link
+https://www.oracle.com/java/technologies/javase-downloads.html
+
+2. Setting up enviorment/system variables.
+https://www.oracle.com/java/technologies/javase-downloads.html
+
+[I'm an inline-style link](https://www.google.com)
+
+```
 
 ## Android Studio
 ```

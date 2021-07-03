@@ -14,8 +14,6 @@ https://www.oracle.com/java/technologies/javase-downloads.html
 2. Setting up enviorment/system variables.
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-<https://www.google.com>
-
 ```
 
 ## Android Studio
@@ -24,6 +22,11 @@ This App was developed using Android studio IDE, It should be able to run in oth
 
 1.  Android studio IDE Download
 https://developer.android.com/studio
+
+2. How to Import Github project to Android Studio
+https://www.youtube.com/watch?v=Y6gmmQZsuLE
+
+3. Ensure Git is extension is downloaded onto Android Studio
 
 ```
 ## Postman Setup

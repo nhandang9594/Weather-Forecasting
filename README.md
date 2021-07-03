@@ -5,13 +5,11 @@ Basic Description:
 An app that takes user entered data and predicts the weather for the next week or so
 
 
-## Angular Set-Up for Front in/User Login.
+## This App was developed using Android studio IDE, It should be able to run in other IDEs but if you run into issues with your personal IDE install w/links below. 
 ```
-1. Make sure node.js is installed
-https://nodejs.org/en/
+1.  Android studio IDE Download
+https://developer.android.com/studio
 
-2. On Windows CMD (ADMIN MODE) run command 
-"npm install -g @angular/cli"
 ```
 ## Postman Setup
 ```

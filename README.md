@@ -26,7 +26,7 @@ https://developer.android.com/studio
 2. How to Import Github project to Android Studio
 https://www.youtube.com/watch?v=Y6gmmQZsuLE
 
-3. Ensure Git is extension is downloaded onto Android Studio
+3. Ensure Git extension is downloaded onto Android Studio, copy repo link and open project.
 
 ```
 ## XAMPP
@@ -38,6 +38,9 @@ https://www.apachefriends.org/index.html
 
 2.
 Ensure to start both APAHCE/PHPMyADmin
+
+
+
 
 PHPMyAdmin is used for database management, as well as verification of users logging in. 
 

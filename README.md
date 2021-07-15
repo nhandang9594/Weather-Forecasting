@@ -36,7 +36,10 @@ XAMPP is needed for APACHE distrubition and PHP.
 1.  XAMPP Download
 https://www.apachefriends.org/index.html
 
-2.
+2. Make sure to place LoginRegister folder into
+C:\xampp\htdocs
+
+3.
 Ensure to start both APAHCE/PHPMyADmin
 
 

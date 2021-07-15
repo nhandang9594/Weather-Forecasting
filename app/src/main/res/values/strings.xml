@@ -3,5 +3,8 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="loginhere">Already have a account? Sign In</string>
+    <string name="fullname">FullName</string>
+
 
 </resources>

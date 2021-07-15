@@ -1,0 +1,37 @@
+//package com.example.weatherappcsce3444;
+
+//import androidx.appcompat.app.AppCompatActivity;
+
+//import android.os.Bundle;
+
+//public class PredictWeather {
+
+//    if (temp > 80 && temp < 99)
+//    {
+
+//    }
+//    else if(temp > 60 && temp < 79)d
+//    {
+
+//    }
+//    else if(temp > 40 && temp < 59)
+//    {
+
+//    }
+//    else if(temp > 20 && temp < 39)
+//    {
+
+//    }
+//    else if(temp > 0 && temp < 19)
+//    {
+
+//    }
+//    else if(temp > 100)
+//    {
+
+//    }
+//    else
+//    {
+
+//    }
+//}

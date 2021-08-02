@@ -7,17 +7,32 @@
     tools:context=".Login">
 
     <!-- Added login color/sizing/fonts-->
+
     <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/signUpText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:layout_constraintVertical_bias="0.134"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
-        android:text="@string/login"
 
 
+        android:fontFamily="@font/poppinsbold"
         android:gravity="center"
+        android:text="@string/login"
         android:textColor="@color/teal_700"
         android:textSize="30dp"
-        android:fontFamily="@font/poppinsbold"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -43,10 +58,11 @@
 
         <!-- Username/fonts/user logo-->
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
-            android:fontFamily="@font/poppinsmedium"
+            android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_user"
-            android:layout_height="wrap_content" />
+            android:fontFamily="@font/poppinsmedium" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,8 +83,10 @@
 
         <!-- Password/fonts/user logo-->
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:inputType="textPassword"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsmedium" />
 
@@ -86,16 +104,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout9" />
 
-
-    <!--added custom style bar -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="192dp"
-        android:background="@color/teal_700"
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="4dp"
+        android:layout_height="45dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ProgressBar>
+    <!--added custom style bar -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

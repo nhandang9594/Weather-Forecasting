@@ -5,6 +5,7 @@
     <string name="login">Login</string>
     <string name="loginhere">Already have a account? Sign In</string>
     <string name="fullname">FullName</string>
-
+    <string name="sign_up">sign_up</string>
+    <string name="signUpText">Need an account? Sign In</string>
 
 </resources>
